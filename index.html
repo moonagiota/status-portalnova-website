@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Status</title>
+    <link rel="icon" type="image/x-icon" href="msfavicon.ico">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Barra de cima (decorativa só eu acho ne)-->
+    <div class="topBar">
+        <img src="msfavicon.ico" alt="O ícone do website portalnova.world">
+    </div>
+
+    <div class="mainStatusText">
+            <br><br><br>
+            <p id="ipIs"> O servidor está... </p>
+            <h1 id="onOffCenterText" class="loadingText">...</h1>
+    </div>
+
+    <!-- Bloco de cima que mostra as informações do servidor-->
+     
+    <div class="infoBlock">
+        <img id="serverIcon" src="/placeholders/loading.gif">
+        <p id="serverIp">...</p>
+
+
+        <script src="js/serverInfoLoader.js"></script>
+    </div>
+
+</body>
+</html>
